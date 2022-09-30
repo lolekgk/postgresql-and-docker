@@ -25,7 +25,7 @@ postgres:14.5
 
 <br/>
 
-### start adminer
+### start pgadmin4
 
 ```
 docker run -dp 8080:80 \
