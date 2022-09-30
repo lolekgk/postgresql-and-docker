@@ -18,7 +18,7 @@ docker run -dp 5432:5432 \
 -e POSTGRES_PASSWORD=secret \
 -v postgres-data:/var/lib/postgresql/data \
 --net postgres-network \
---name postgresdb \
+--name postgresql_db \
 --restart=always \
 postgres:14.5
 ```
